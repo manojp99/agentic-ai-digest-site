@@ -1,0 +1,60 @@
+:root { color-scheme: light; --paper: #f7f6f2; --ink: #182b28; --muted: #52635c; --accent: #205744; --line: #d3d9d0; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; }
+a { color: inherit; text-underline-offset: .2em; }
+a:hover { color: var(--accent); }
+a:focus-visible, summary:focus-visible { outline: 3px solid #a35416; outline-offset: 5px; border-radius: 2px; }
+.shell { max-width: 1080px; margin: auto; padding: 0 42px; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 28px 0; border-bottom: 1px solid var(--line); }
+.brand { display: flex; align-items: center; gap: 12px; font-size: 17px; font-weight: 750; text-decoration: none; letter-spacing: -.03em; }
+.mark { background: var(--ink); color: var(--paper); padding: 4px 10px; font-family: Georgia, serif; font-size: 22px; }
+nav { display: flex; gap: 24px; font-size: 13px; }
+nav a { text-decoration: none; }
+.intro { padding: 65px 0 26px; }
+.eyebrow { color: var(--accent); font-size: 11px; font-weight: 800; letter-spacing: .16em; }
+h1 { margin: 18px 0 24px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(48px, 7vw, 82px); letter-spacing: -.055em; font-weight: 400; line-height: 1.04; }
+.dek { max-width: 600px; color: var(--muted); font-size: 18px; line-height: 1.7; }
+.edition { display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 12px; margin-top: 30px; color: var(--muted); }
+.edition strong { color: var(--ink); }
+.freshness { margin: 14px 0 30px; border-left: 3px solid var(--accent); background: #eaf0e8; padding: 14px 20px; font-size: 12px; }
+.freshness strong { margin-right: 12px; }
+.freshness > span { display: block; color: #43564a; margin-top: 4px; }
+.reading { margin: 0; padding: 0; list-style: none; }
+.card { display: grid; grid-template-columns: 58px 1fr; gap: 12px; padding: 30px 0 36px; border-bottom: 1px solid var(--line); }
+.rank { color: #63726a; font-family: Georgia, serif; font-size: 26px; line-height: 1.3; }
+.meta { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; color: var(--muted); font-size: 11px; font-weight: 600; }
+.older { color: #75430f; border: 1px solid #c5aa7e; padding: 0 6px; border-radius: 3px; margin-left: 4px; }
+h2 { font-family: Georgia, "Times New Roman", serif; font-size: 28px; letter-spacing: -.025em; font-weight: 400; line-height: 1.3; margin: 12px 0 18px; }
+h2 a { text-decoration: none; }
+h2 a:hover { text-decoration: underline; }
+h2 a span { font-family: system-ui, sans-serif; color: var(--accent); font-size: 19px; }
+.excerpt, .context { max-width: 780px; color: #3e4d46; font-size: 14px; margin: 12px 0; overflow-wrap: anywhere; }
+.label { display: block; color: var(--accent); font-size: 10px; font-weight: 750; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 4px; }
+.context { padding-left: 14px; border-left: 1px solid #bbcaba; color: var(--muted); font-size: 13px; margin-top: 20px; }
+.topic { display: inline-block; font-size: 10px; padding: 3px 9px; border-radius: 3px; background: #e6ebe2; color: #355542; margin-top: 6px; }
+.method { padding: 42px 0; }
+.method h2 { font-size: 26px; }
+.method p { color: var(--muted); font-size: 13px; max-width: 840px; }
+summary { cursor: pointer; color: var(--accent); font-size: 14px; padding: 12px 0; }
+.coverage, .archive { list-style: none; padding: 0; }
+.coverage li, .archive li { display: flex; justify-content: space-between; gap: 24px; padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 12px; }
+.coverage li > div { max-width: 70%; text-align: right; overflow-wrap: anywhere; color: var(--muted); }
+.coverage p { margin: 4px 0; font-size: 11px; }
+.archive { margin: 20px 0 80px; }
+.archive li { font-size: 16px; }
+.archive span { color: var(--muted); }
+.empty { padding: 30px 0; }
+footer { display: flex; justify-content: space-between; gap: 20px; border-top: 1px solid var(--line); padding: 25px 0 45px; color: var(--muted); font-size: 12px; }
+.skip { position: absolute; left: 12px; top: -80px; padding: 10px; background: white; }
+.skip:focus { top: 10px; }
+@media (max-width: 600px) {
+  .shell { padding: 0 22px; }
+  header { align-items: flex-start; flex-direction: column; gap: 16px; padding: 22px 0; }
+  nav { gap: 22px; }
+  .intro { padding-top: 38px; }
+  .dek { font-size: 16px; }
+  .card { grid-template-columns: 30px 1fr; gap: 10px; padding: 25px 0; }
+  .rank { font-size: 20px; }
+  h2 { font-size: 24px; }
+  footer { flex-direction: column; gap: 12px; }
+}

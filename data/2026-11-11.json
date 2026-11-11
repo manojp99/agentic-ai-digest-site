@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T19:52:05.494327+00:00",
+  "articles": [
+    {
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "url": "https://microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+      "published": "2026-11-10T20:52:56+00:00",
+      "excerpt": "Microsoft researchers have discovered \u201cLazarus,\u201d a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A triggered model could quietly download and run attacker code, [\u2026] The post Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents...",
+      "source": "Microsoft Research",
+      "score": 16,
+      "topic": "AI agents",
+      "context": "Relevant to AI systems that take actions, including coding and computer-use workflows."
+    },
+    {
+      "title": "How Workday Built an Enterprise-Scale AI Agent Platform with LangGraph and LangSmith",
+      "url": "https://langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith",
+      "published": "2026-11-10T16:00:00+00:00",
+      "excerpt": "See how Workday used LangGraph and LangSmith to build an internal AI agent platform that cut prototype time from months to less than a day and compliance needs.",
+      "source": "LangChain",
+      "score": 16,
+      "topic": "AI agents",
+      "context": "Relevant to AI systems that take actions, including coding and computer-use workflows."
+    },
+    {
+      "title": "What Is Eval-Driven Development? How to Improve AI Agents",
+      "url": "https://langchain.com/blog/what-is-eval-driven-development",
+      "published": "2026-11-09T19:00:00+00:00",
+      "excerpt": "Eval-driven development helps you build AI agents against a consistent set of metrics. Define good behavior, write the eval first, then compare experiments.",
+      "source": "LangChain",
+      "score": 16,
+      "topic": "AI agents",
+      "context": "Relevant to AI systems that take actions, including coding and computer-use workflows."
+    },
+    {
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "published": "2026-11-06T00:00:00+00:00",
+      "excerpt": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "source": "OpenAI",
+      "score": 16,
+      "topic": "AI agents",
+      "context": "Relevant to AI systems that take actions, including coding and computer-use workflows."
+    },
+    {
+      "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+      "url": "https://microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit",
+      "published": "2026-11-05T16:00:00+00:00",
+      "excerpt": "AI agents can generate code at a scale that\u2019s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing against them. It converts developer intent into a Verus specification, proves AI-generated code meets it for every input, and uses tests where proofs aren't practical. Developers review intent, not every line. The post Formally verifying...",
+      "source": "Microsoft Research",
+      "score": 13,
+      "topic": "AI agents",
+      "context": "Relevant to AI systems that take actions, including coding and computer-use workflows."
+    },
+    {
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "published": "2026-11-09T08:00:00+00:00",
+      "excerpt": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "source": "OpenAI",
+      "score": 11,
+      "topic": "Agentic systems",
+      "context": "Relevant to designing systems that plan and act across multiple steps."
+    },
+    {
+      "title": "Hide your slop PR descriptions behind",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary",
+      "published": "2026-11-09T04:25:05+00:00",
+      "excerpt": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions. They're too good at describing the work The problem is that they are too good. An agent-written PR...",
+      "source": "Simon Willison",
+      "score": 10,
+      "topic": "AI agents",
+      "context": "Relevant to AI systems that take actions, including coding and computer-use workflows."
+    },
+    {
+      "title": "The components of agent memory",
+      "url": "https://anthropic.com/research/components-of-agent-memory",
+      "published": "2026-11-06T00:00:00+00:00",
+      "excerpt": "For Claude to learn from experience, it has to decide what\u2019s worth remembering before it knows what\u2019s next. Here\u2019s how \u201cdreaming\u201d helps it organize memory and correct mistakes.",
+      "source": "Anthropic",
+      "score": 6,
+      "topic": "Agent engineering",
+      "context": "Relevant to implementing agents; consult the original for capabilities and limitations."
+    },
+    {
+      "title": "How our GTM Agent builds consistent, high-quality sales artifacts",
+      "url": "https://langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
+      "published": "2026-11-11T00:16:00+00:00",
+      "excerpt": "Learn how LangChain built GTM Agent on Deep Agents to build high-quality, custom sales artifacts trained on business context.",
+      "source": "LangChain",
+      "score": 6,
+      "topic": "Agent engineering",
+      "context": "Relevant to implementing agents; consult the original for capabilities and limitations."
+    },
+    {
+      "title": "Agents Are Going Async",
+      "url": "https://langchain.com/blog/agents-are-going-async",
+      "published": "2026-11-05T20:00:00+00:00",
+      "excerpt": "Async subagents let an agent stay responsive while background workers run long tasks. How the orchestrator, notifications and approvals work in Deep Agents.",
+      "source": "LangChain",
+      "score": 6,
+      "topic": "Agent engineering",
+      "context": "Relevant to implementing agents; consult the original for capabilities and limitations."
+    }
+  ],
+  "coverage": [
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)"
+      ],
+      "status": "ok",
+      "articles": 150,
+      "usable": 150
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/engineering",
+      "notes": [
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "ok",
+      "articles": 12,
+      "usable": 12
+    },
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)",
+        "Article access failed: https://deepmind.google/blog/gemini-4-carbon-is-now-available: Cross-publisher or non-HTTPS redirect refused",
+        "Article access failed: https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips: Cross-publisher or non-HTTPS redirect refused",
+        "31 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 100,
+      "usable": 69
+    },
+    {
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)"
+      ],
+      "status": "ok",
+      "articles": 10,
+      "usable": 10
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "notes": [
+        "63 entries skipped (missing metadata or outside first-party scope)",
+        "82 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 87,
+      "usable": 5
+    },
+    {
+      "name": "LangChain",
+      "url": "https://www.langchain.com/blog",
+      "notes": [
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "ok",
+      "articles": 12,
+      "usable": 12
+    },
+    {
+      "name": "LlamaIndex",
+      "url": "https://www.llamaindex.ai/blog",
+      "notes": [
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/parse-ocria-1",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ocr-for-kyc",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/mortgage-document-automation",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/Income-verification-api",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/kyc-automation",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/deep-extraction",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ai-document-classification",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ocr-accuracy",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/unstructured-data-extraction",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/agentic-document-extraction",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/agentic-document-processing",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ocr-for-tables",
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "error",
+      "articles": 0,
+      "error": "No dated articles found; publisher metadata may be unavailable"
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)"
+      ],
+      "status": "ok",
+      "articles": 30,
+      "usable": 30
+    }
+  ],
+  "rejected": {
+    "outside_window": 236,
+    "recently_picked": 0,
+    "irrelevant": 41,
+    "duplicate": 0
+  }
+}

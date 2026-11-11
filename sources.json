@@ -1,0 +1,10 @@
+[
+  {"name": "OpenAI", "url": "https://openai.com/news/rss.xml", "domain": "openai.com", "kind": "feed"},
+  {"name": "Anthropic", "url": "https://www.anthropic.com/engineering", "domain": "anthropic.com", "kind": "page", "paths": ["/engineering/", "/research/"]},
+  {"name": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml", "domain": "deepmind.google", "kind": "feed"},
+  {"name": "Microsoft Research", "url": "https://www.microsoft.com/en-us/research/feed/", "domain": "microsoft.com", "kind": "feed"},
+  {"name": "Hugging Face", "url": "https://huggingface.co/blog/feed.xml", "domain": "huggingface.co", "kind": "feed", "first_party_only": true},
+  {"name": "LangChain", "url": "https://www.langchain.com/blog", "domain": "langchain.com", "kind": "page", "paths": ["/blog/"]},
+  {"name": "LlamaIndex", "url": "https://www.llamaindex.ai/blog", "domain": "llamaindex.ai", "kind": "page", "paths": ["/blog/"]},
+  {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "domain": "simonwillison.net", "kind": "feed"}
+]
