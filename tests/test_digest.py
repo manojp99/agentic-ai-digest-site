@@ -99,12 +99,13 @@ class CurationTests(unittest.TestCase):
 
     def test_ranks_relevance_then_freshness_with_source_variety(self):
         items = [article(url=f"https://example.com/{i}", published=(NOW - timedelta(hours=i)).isoformat()) for i in range(12)]
-        items.append(article("AI agents and tool calling", source="Other", url="https://other.test/x"))
+        items.append(article("Agent memory", source="Other", excerpt="Context and persistence.", url="https://other.test/x"))
         picks, _ = digest.select_articles(items, [], NOW)
         self.assertEqual(len(picks), 10)
-        self.assertEqual(picks[0]["source"], "Other")
-        self.assertEqual(picks[1]["url"], "https://example.com/0")
-        self.assertEqual(picks[2]["url"], "https://example.com/1")
+        self.assertEqual(picks[0]["url"], "https://example.com/0")
+        self.assertEqual(picks[1]["url"], "https://example.com/1")
+        self.assertEqual(picks[2]["source"], "Other")
+        self.assertEqual(picks[3]["url"], "https://example.com/2")
 
     def test_no_padding_and_no_user_agent_false_positive(self):
         picks, _ = digest.select_articles([article("User-agent parsing", excerpt="Set the user agent header")], [], NOW)
