@@ -67,7 +67,7 @@ paid credentials. Keyword curation cannot guarantee editorial quality, and
 coverage is not exhaustive; read the linked originals.
 
 Retrieval uses four source workers, a 20-second socket timeout, 2 MB per
-response, at most 150 entries per feed, and at most 12 article pages per
+response (also after gzip decompression), at most 150 entries per feed, and at most 12 article pages per
 source. Page sources inspect links in publisher order; this is a bounded
 sample, not a complete crawl. The collection job has a 15-minute timeout.
 Redirects and article links must stay on the configured publisher's HTTPS

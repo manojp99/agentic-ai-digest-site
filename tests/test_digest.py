@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta, timezone
+import gzip
 import json
 from pathlib import Path
 import tempfile
@@ -80,6 +81,17 @@ class FeedTests(unittest.TestCase):
         body = b"""<rss><channel><item><title>Agentic</title><link>https://example.com/blog/user/post</link>
         <pubDate>Wed, 11 Nov 2026 10:00:00 GMT</pubDate></item></channel></rss>"""
         self.assertEqual(digest.parse_feed(body, dict(SOURCE, first_party_only=True))[0], [])
+
+    def test_compressed_feeds_are_decoded_with_an_expanded_size_limit(self):
+        body = b"<rss><channel/></rss>"
+        with patch("digest.build_opener") as opener:
+            response = opener.return_value.open.return_value.__enter__.return_value
+            response.headers.get.return_value = "gzip"
+            response.read.return_value = gzip.compress(body)
+            self.assertEqual(digest.request_bytes(SOURCE["url"], SOURCE["domain"]), body)
+            response.read.return_value = gzip.compress(b"x" * (digest.MAX_BYTES + 1))
+            with self.assertRaisesRegex(digest.DigestError, "Expanded response"):
+                digest.request_bytes(SOURCE["url"], SOURCE["domain"])
 
 
 class CurationTests(unittest.TestCase):

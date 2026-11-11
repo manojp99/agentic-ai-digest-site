@@ -4,8 +4,10 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+import gzip
 from html import escape, unescape
 from html.parser import HTMLParser
+import io
 import json
 from pathlib import Path
 import re
@@ -14,6 +16,7 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 from urllib.request import HTTPRedirectHandler, Request, build_opener
 import xml.etree.ElementTree as ET
+import zlib
 
 ROOT = Path(__file__).resolve().parent
 UTC = timezone.utc
@@ -240,11 +243,23 @@ def request_bytes(url, domain):
     request = Request(url, headers={
         "User-Agent": "AgenticAIDaily/1.0 (+https://github.com/manojp99/agentic-ai-digest-site)",
         "Accept": "application/rss+xml, application/atom+xml, application/xml, text/html;q=0.9",
+        "Accept-Encoding": "identity",
     })
     with build_opener(SamePublisherRedirects(domain)).open(request, timeout=20) as response:
         payload = response.read(MAX_BYTES + 1)
+        encoding = response.headers.get("Content-Encoding", "identity").lower().strip()
     if len(payload) > MAX_BYTES:
         raise DigestError(f"Response exceeds {MAX_BYTES:,}-byte limit")
+    if encoding not in {"identity", "gzip"}:
+        raise DigestError(f"Unsupported response encoding: {encoding}")
+    if encoding == "gzip" or payload.startswith(b"\x1f\x8b"):
+        try:
+            with gzip.GzipFile(fileobj=io.BytesIO(payload)) as compressed:
+                payload = compressed.read(MAX_BYTES + 1)
+        except (OSError, EOFError, zlib.error) as exc:
+            raise DigestError(f"Invalid gzip response: {exc}") from exc
+        if len(payload) > MAX_BYTES:
+            raise DigestError(f"Expanded response exceeds {MAX_BYTES:,}-byte limit")
     return payload
 
 
