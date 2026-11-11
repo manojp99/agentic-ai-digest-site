@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T19:52:05.494327+00:00",
+  "generated_at": "2026-11-11T19:53:30.466867+00:00",
   "articles": [
     {
       "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
@@ -63,7 +63,7 @@
       "context": "Relevant to designing systems that plan and act across multiple steps."
     },
     {
-      "title": "Hide your slop PR descriptions behind",
+      "title": "Hide your slop PR descriptions behind <details><summary>",
       "url": "https://simonwillison.net/2026/Nov/9/details-summary",
       "published": "2026-11-09T04:25:05+00:00",
       "excerpt": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions. They're too good at describing the work The problem is that they are too good. An agent-written PR...",
