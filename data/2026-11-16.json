@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-17T00:40:45.744898+00:00",
+  "articles": [
+    {
+      "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+      "url": "https://microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient",
+      "published": "2026-11-16T17:01:35+00:00",
+      "excerpt": "AI coding agents can waste time and tokens relearning the same lessons. TokenEconomizer is an open-source plugin that builds on past sessions to cut costs while maintaining task success. It\u2019s a path toward coding agents that learn not only how to solve tasks, but also how to spend computation more effectively. The post TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient appeared first on Microsoft Research.",
+      "source": "Microsoft Research",
+      "score": 16,
+      "topic": "AI agents",
+      "context": "Relevant to AI systems that take actions, including coding and computer-use workflows."
+    },
+    {
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "published": "2026-11-16T06:00:00+00:00",
+      "excerpt": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "source": "OpenAI",
+      "score": 10,
+      "topic": "AI agents",
+      "context": "Relevant to AI systems that take actions, including coding and computer-use workflows."
+    },
+    {
+      "title": "We rebuilt LangSmith around the agent",
+      "url": "https://langchain.com/blog/we-rebuilt-langsmith-around-the-agent",
+      "published": "2026-11-16T18:00:00+00:00",
+      "excerpt": "We reorganized LangSmith around a single agent record. Build, run, improve, and govern every agent from one place, on any framework or runtime.",
+      "source": "LangChain",
+      "score": 6,
+      "topic": "Agent engineering",
+      "context": "Relevant to implementing agents; consult the original for capabilities and limitations."
+    },
+    {
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent",
+      "published": "2026-11-15T03:49:47+00:00",
+      "excerpt": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries: Tags: datasette-agent, llm, datasette, llms, ai, generative-ai",
+      "source": "Simon Willison",
+      "score": 6,
+      "topic": "Agent engineering",
+      "context": "Relevant to implementing agents; consult the original for capabilities and limitations."
+    }
+  ],
+  "coverage": [
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)",
+        "Article access failed: https://openai.com/index/advancing-computer-use-for-healthcare-teams: HTTP Error 403: Forbidden",
+        "1 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 150,
+      "usable": 149
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/engineering",
+      "notes": [
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "ok",
+      "articles": 12,
+      "usable": 12
+    },
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)",
+        "Article access failed: https://deepmind.google/blog/introducing-gemini-4-hydrogen: Cross-publisher or non-HTTPS redirect refused",
+        "Article access failed: https://deepmind.google/blog/gemini-4-carbon-is-now-available: Cross-publisher or non-HTTPS redirect refused",
+        "32 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 100,
+      "usable": 68
+    },
+    {
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)"
+      ],
+      "status": "ok",
+      "articles": 10,
+      "usable": 10
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "notes": [
+        "64 entries skipped (missing metadata or outside first-party scope)",
+        "83 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 86,
+      "usable": 3
+    },
+    {
+      "name": "LangChain",
+      "url": "https://www.langchain.com/blog",
+      "notes": [
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "ok",
+      "articles": 12,
+      "usable": 12
+    },
+    {
+      "name": "LlamaIndex",
+      "url": "https://www.llamaindex.ai/blog",
+      "notes": [
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/introducing-parsebench-v2",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ocr-for-kyc",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/mortgage-document-automation",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/Income-verification-api",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/kyc-automation",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/deep-extraction",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ai-document-classification",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ocr-accuracy",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/unstructured-data-extraction",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/agentic-document-extraction",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/agentic-document-processing",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ocr-for-tables",
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "error",
+      "articles": 0,
+      "error": "No dated articles found; publisher metadata may be unavailable"
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)"
+      ],
+      "status": "ok",
+      "articles": 30,
+      "usable": 30
+    }
+  ],
+  "rejected": {
+    "outside_window": 224,
+    "recently_picked": 5,
+    "irrelevant": 51,
+    "duplicate": 0
+  }
+}
