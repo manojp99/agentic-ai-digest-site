@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T23:26:38.512719+00:00",
+  "articles": [
+    {
+      "title": "LangSmith Tool Gateway: Secure, governed tool use for agents",
+      "url": "https://langchain.com/blog/langsmith-tool-gateway",
+      "published": "2026-11-19T18:00:00+00:00",
+      "excerpt": "LangSmith Tool Gateway, now in Public Beta, handles credentials, identity, and access for every agent tool call, with policies, approvals, and traces.",
+      "source": "LangChain",
+      "score": 15,
+      "topic": "Tool use",
+      "context": "Relevant to connecting language models to tools and external actions."
+    },
+    {
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "published": "2026-11-18T08:00:00+00:00",
+      "excerpt": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "source": "OpenAI",
+      "score": 10,
+      "topic": "AI agents",
+      "context": "Relevant to AI systems that take actions, including coding and computer-use workflows."
+    }
+  ],
+  "coverage": [
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)",
+        "Article access failed: https://openai.com/index/advancing-computer-use-for-healthcare-teams: HTTP Error 403: Forbidden",
+        "1 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 150,
+      "usable": 149
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/engineering",
+      "notes": [
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "ok",
+      "articles": 12,
+      "usable": 12
+    },
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)",
+        "Article access failed: https://deepmind.google/blog/introducing-gemini-4-neon: Cross-publisher or non-HTTPS redirect refused",
+        "Article access failed: https://deepmind.google/blog/genie-4-is-now-available: Cross-publisher or non-HTTPS redirect refused",
+        "33 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 100,
+      "usable": 67
+    },
+    {
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)"
+      ],
+      "status": "ok",
+      "articles": 10,
+      "usable": 10
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "notes": [
+        "65 entries skipped (missing metadata or outside first-party scope)",
+        "82 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 85,
+      "usable": 3
+    },
+    {
+      "name": "LangChain",
+      "url": "https://www.langchain.com/blog",
+      "notes": [
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "ok",
+      "articles": 12,
+      "usable": 12
+    },
+    {
+      "name": "LlamaIndex",
+      "url": "https://www.llamaindex.ai/blog",
+      "notes": [
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/introducing-parsebench-v2",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ocr-for-kyc",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/mortgage-document-automation",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/Income-verification-api",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/kyc-automation",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/deep-extraction",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ai-document-classification",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ocr-accuracy",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/unstructured-data-extraction",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/agentic-document-extraction",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/agentic-document-processing",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ocr-for-tables",
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "error",
+      "articles": 0,
+      "error": "No dated articles found; publisher metadata may be unavailable"
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)"
+      ],
+      "status": "ok",
+      "articles": 30,
+      "usable": 30
+    }
+  ],
+  "rejected": {
+    "outside_window": 224,
+    "recently_picked": 7,
+    "irrelevant": 50,
+    "duplicate": 0
+  }
+}
