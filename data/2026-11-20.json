@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T22:58:45.735945+00:00",
+  "articles": [
+    {
+      "title": "Why agent governance starts with observability",
+      "url": "https://langchain.com/blog/agent-governance-observability",
+      "published": "2026-11-19T17:53:00+00:00",
+      "excerpt": "A strong AI agent governance strategy",
+      "source": "LangChain",
+      "score": 13,
+      "topic": "AI agents",
+      "context": "Relevant to AI systems that take actions, including coding and computer-use workflows."
+    }
+  ],
+  "coverage": [
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)",
+        "1 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 150,
+      "usable": 149
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/engineering",
+      "notes": [
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "ok",
+      "articles": 12,
+      "usable": 12
+    },
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)",
+        "Article access failed: https://deepmind.google/blog/introducing-gemini-4-neon: Cross-publisher or non-HTTPS redirect refused",
+        "Article access failed: https://deepmind.google/blog/genie-4-is-now-available: Cross-publisher or non-HTTPS redirect refused",
+        "33 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 100,
+      "usable": 67
+    },
+    {
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)"
+      ],
+      "status": "ok",
+      "articles": 10,
+      "usable": 10
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "notes": [
+        "65 entries skipped (missing metadata or outside first-party scope)",
+        "80 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 85,
+      "usable": 5
+    },
+    {
+      "name": "LangChain",
+      "url": "https://www.langchain.com/blog",
+      "notes": [
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "ok",
+      "articles": 12,
+      "usable": 12
+    },
+    {
+      "name": "LlamaIndex",
+      "url": "https://www.llamaindex.ai/blog",
+      "notes": [
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/introducing-parsebench-v2",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ocr-for-kyc",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/mortgage-document-automation",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/Income-verification-api",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/kyc-automation",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/deep-extraction",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ai-document-classification",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ocr-accuracy",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/unstructured-data-extraction",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/agentic-document-extraction",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/agentic-document-processing",
+        "Skipped (no title, publication date, or excerpt): https://llamaindex.ai/blog/ocr-for-tables",
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "error",
+      "articles": 0,
+      "error": "No dated articles found; publisher metadata may be unavailable"
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)"
+      ],
+      "status": "ok",
+      "articles": 30,
+      "usable": 30
+    }
+  ],
+  "rejected": {
+    "outside_window": 218,
+    "recently_picked": 9,
+    "irrelevant": 57,
+    "duplicate": 0
+  }
+}
