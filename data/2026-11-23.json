@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-24T03:10:58.059040+00:00",
+  "articles": [
+    {
+      "title": "How to build and maintain an agentic evaluation",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "published": "2026-11-23T00:00:00+00:00",
+      "excerpt": "We\u2019re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "source": "Hugging Face",
+      "score": 22,
+      "topic": "Agentic systems",
+      "context": "Relevant to designing systems that plan and act across multiple steps."
+    },
+    {
+      "title": "Introducing OCRia-1.5",
+      "url": "https://llamaindex.ai/blog/introducing-ocria-1-5",
+      "published": "2026-11-18T00:00:00+00:00",
+      "excerpt": "OCRia-1.5 is live in LlamaParse: a new 2B model for Cost Effective, an upgraded 4B for Agentic, and Agentic Plus now at 25 credits per page.",
+      "source": "LlamaIndex",
+      "score": 8,
+      "topic": "Agentic systems",
+      "context": "Relevant to designing systems that plan and act across multiple steps."
+    },
+    {
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "published": "2026-11-23T16:59:40+00:00",
+      "excerpt": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "source": "Google DeepMind",
+      "score": 6,
+      "topic": "Agent engineering",
+      "context": "Relevant to implementing agents; consult the original for capabilities and limitations."
+    }
+  ],
+  "coverage": [
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)",
+        "1 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 150,
+      "usable": 149
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/engineering",
+      "notes": [
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "ok",
+      "articles": 12,
+      "usable": 12
+    },
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)",
+        "Article access failed: https://deepmind.google/blog/introducing-gemini-4-neon: Cross-publisher or non-HTTPS redirect refused",
+        "Article access failed: https://deepmind.google/blog/genie-4-is-now-available: Cross-publisher or non-HTTPS redirect refused",
+        "33 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 100,
+      "usable": 67
+    },
+    {
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)"
+      ],
+      "status": "ok",
+      "articles": 10,
+      "usable": 10
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "notes": [
+        "65 entries skipped (missing metadata or outside first-party scope)",
+        "80 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 85,
+      "usable": 5
+    },
+    {
+      "name": "LangChain",
+      "url": "https://www.langchain.com/blog",
+      "notes": [
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "ok",
+      "articles": 12,
+      "usable": 12
+    },
+    {
+      "name": "LlamaIndex",
+      "url": "https://www.llamaindex.ai/blog",
+      "notes": [
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "ok",
+      "articles": 12,
+      "usable": 12
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)"
+      ],
+      "status": "ok",
+      "articles": 30,
+      "usable": 30
+    }
+  ],
+  "rejected": {
+    "outside_window": 238,
+    "recently_picked": 6,
+    "irrelevant": 50,
+    "duplicate": 0
+  }
+}
