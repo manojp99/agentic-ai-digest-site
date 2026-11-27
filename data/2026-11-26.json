@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-27T00:57:20.568091+00:00",
+  "articles": [
+    {
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "published": "2026-11-26T00:00:00+00:00",
+      "excerpt": "We\u2019re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "source": "Hugging Face",
+      "score": 17,
+      "topic": "Multi-agent coordination",
+      "context": "Relevant to coordinating responsibilities and handoffs between agents."
+    }
+  ],
+  "coverage": [
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)",
+        "2 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 150,
+      "usable": 148
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/engineering",
+      "notes": [
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "ok",
+      "articles": 12,
+      "usable": 12
+    },
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)",
+        "33 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 100,
+      "usable": 67
+    },
+    {
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)"
+      ],
+      "status": "ok",
+      "articles": 10,
+      "usable": 10
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "notes": [
+        "64 entries skipped (missing metadata or outside first-party scope)",
+        "83 dated entries have no usable excerpt and cannot be selected"
+      ],
+      "status": "ok",
+      "articles": 86,
+      "usable": 3
+    },
+    {
+      "name": "LangChain",
+      "url": "https://www.langchain.com/blog",
+      "notes": [
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "ok",
+      "articles": 12,
+      "usable": 12
+    },
+    {
+      "name": "LlamaIndex",
+      "url": "https://www.llamaindex.ai/blog",
+      "notes": [
+        "Inspected 12 index links in publisher order"
+      ],
+      "status": "ok",
+      "articles": 12,
+      "usable": 12
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "notes": [
+        "0 entries skipped (missing metadata or outside first-party scope)"
+      ],
+      "status": "ok",
+      "articles": 30,
+      "usable": 30
+    }
+  ],
+  "rejected": {
+    "outside_window": 255,
+    "recently_picked": 5,
+    "irrelevant": 33,
+    "duplicate": 0
+  }
+}
